@@ -89,11 +89,6 @@ A possible configuration for a Cloud Spanner instance. Configurations
 define the geographic placement of nodes and their replication.
 
 
-#### Example
-
-```ruby
-
-```
 
 #### Reference
 
@@ -106,15 +101,6 @@ gspanner_instance_config 'id-for-resource' do
 end
 ```
 
-#### Actions
-
-* `create` -
-  Converges the `gspanner_instance_config` resource into the final
-  state described within the block. If the resource does not exist, Chef will
-  attempt to create it.
-* `delete` -
-  Ensures the `gspanner_instance_config` resource is not present.
-  If the resource already exists Chef will attempt to delete it.
 
 #### Properties
 
